@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-07-24 BZR 5024)-product   date = Sun Jul 27 12:01:31 2014
+Cmp-Mod V01 Created by Cvpcb (2014-08-14 BZR 5074)-product   date = Fri Aug 15 19:15:12 2014
 
 BeginCmp
 TimeStamp = /53D17DEC;
@@ -50,73 +50,66 @@ IdModule  = Capacitors_ThroughHole:Capacitor3MMDiscRM2.5;
 EndCmp
 
 BeginCmp
-TimeStamp = /53D0BB47;
+TimeStamp = /53EEA12E;
+Reference = C8;
+ValeurCmp = C;
+IdModule  = Capacitors_ThroughHole:Capacitor3MMDiscRM2.5;
+EndCmp
+
+BeginCmp
+TimeStamp = /53EE40BE;
+Reference = IC1;
+ValeurCmp = ATMEGA32A-P;
+IdModule  = Sockets_DIP:DIP-40__600_ELL;
+EndCmp
+
+BeginCmp
+TimeStamp = /53EE891F;
 Reference = P1;
-ValeurCmp = CONN_25X2;
-IdModule  = Socket_Strips:Socket_Strip_Straight_2x25;
-EndCmp
-
-BeginCmp
-TimeStamp = /53D104C0;
-Reference = P2;
-ValeurCmp = Arduino-Left;
-IdModule  = Socket_Strips:Socket_Strip_Straight_1x12;
-EndCmp
-
-BeginCmp
-TimeStamp = /53D105E1;
-Reference = P3;
-ValeurCmp = Arduino-Bottom;
-IdModule  = Socket_Strips:Socket_Strip_Straight_1x03;
-EndCmp
-
-BeginCmp
-TimeStamp = /53D10584;
-Reference = P4;
-ValeurCmp = Arduino-FTDI;
-IdModule  = Socket_Strips:Socket_Strip_Straight_1x06;
-EndCmp
-
-BeginCmp
-TimeStamp = /53D10531;
-Reference = P5;
-ValeurCmp = Arduino_Right;
-IdModule  = Socket_Strips:Socket_Strip_Straight_1x12;
-EndCmp
-
-BeginCmp
-TimeStamp = /53D10644;
-Reference = P6;
-ValeurCmp = Arduino-Middle;
-IdModule  = Socket_Strips:Socket_Strip_Straight_1x02;
-EndCmp
-
-BeginCmp
-TimeStamp = /53D16F53;
-Reference = P7;
-ValeurCmp = CONN_14;
-IdModule  = Socket_Strips:Socket_Strip_Straight_1x14;
-EndCmp
-
-BeginCmp
-TimeStamp = /53D17036;
-Reference = P8;
-ValeurCmp = CONN_8;
+ValeurCmp = PORT_D;
 IdModule  = Socket_Strips:Socket_Strip_Straight_1x08;
 EndCmp
 
 BeginCmp
-TimeStamp = /53D4CCB9;
-Reference = P9;
-ValeurCmp = CONN_3;
-IdModule  = Socket_Strips:Socket_Strip_Straight_1x03;
+TimeStamp = /53EE877A;
+Reference = P2;
+ValeurCmp = PORT_C;
+IdModule  = Socket_Strips:Socket_Strip_Straight_1x08;
+EndCmp
+
+BeginCmp
+TimeStamp = /53EE815F;
+Reference = P3;
+ValeurCmp = PORT_B;
+IdModule  = Socket_Strips:Socket_Strip_Straight_1x08;
+EndCmp
+
+BeginCmp
+TimeStamp = /53D17036;
+Reference = P4;
+ValeurCmp = PORT_A;
+IdModule  = Socket_Strips:Socket_Strip_Straight_1x08;
 EndCmp
 
 BeginCmp
 TimeStamp = /53D4E0FA;
-Reference = P10;
-ValeurCmp = CONN_3X2;
-IdModule  = Pin_Headers:Pin_Header_Straight_2x03;
+Reference = P5;
+ValeurCmp = ISP;
+IdModule  = Socket_Strips:Socket_Strip_Straight_2x03;
+EndCmp
+
+BeginCmp
+TimeStamp = /53D4CCB9;
+Reference = P6;
+ValeurCmp = PWR;
+IdModule  = Socket_Strips:Socket_Strip_Straight_1x03;
+EndCmp
+
+BeginCmp
+TimeStamp = /53D0BB47;
+Reference = P7;
+ValeurCmp = BUS;
+IdModule  = Socket_Strips:Socket_Strip_Straight_2x25;
 EndCmp
 
 BeginCmp
