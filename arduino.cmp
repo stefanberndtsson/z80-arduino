@@ -1,0 +1,192 @@
+Cmp-Mod V01 Created by Cvpcb (2014-07-24 BZR 5024)-product   date = Sun Jul 27 12:01:31 2014
+
+BeginCmp
+TimeStamp = /53D17DEC;
+Reference = C1;
+ValeurCmp = C;
+IdModule  = Capacitors_ThroughHole:Capacitor3MMDiscRM2.5;
+EndCmp
+
+BeginCmp
+TimeStamp = /53D180B2;
+Reference = C2;
+ValeurCmp = C;
+IdModule  = Capacitors_ThroughHole:Capacitor3MMDiscRM2.5;
+EndCmp
+
+BeginCmp
+TimeStamp = /53D180E3;
+Reference = C3;
+ValeurCmp = C;
+IdModule  = Capacitors_ThroughHole:Capacitor3MMDiscRM2.5;
+EndCmp
+
+BeginCmp
+TimeStamp = /53D181AB;
+Reference = C4;
+ValeurCmp = C;
+IdModule  = Capacitors_ThroughHole:Capacitor3MMDiscRM2.5;
+EndCmp
+
+BeginCmp
+TimeStamp = /53D181DE;
+Reference = C5;
+ValeurCmp = C;
+IdModule  = Capacitors_ThroughHole:Capacitor3MMDiscRM2.5;
+EndCmp
+
+BeginCmp
+TimeStamp = /53D18212;
+Reference = C6;
+ValeurCmp = C;
+IdModule  = Capacitors_ThroughHole:Capacitor3MMDiscRM2.5;
+EndCmp
+
+BeginCmp
+TimeStamp = /53D18247;
+Reference = C7;
+ValeurCmp = C;
+IdModule  = Capacitors_ThroughHole:Capacitor3MMDiscRM2.5;
+EndCmp
+
+BeginCmp
+TimeStamp = /53D0BB47;
+Reference = P1;
+ValeurCmp = CONN_25X2;
+IdModule  = Socket_Strips:Socket_Strip_Straight_2x25;
+EndCmp
+
+BeginCmp
+TimeStamp = /53D104C0;
+Reference = P2;
+ValeurCmp = Arduino-Left;
+IdModule  = Socket_Strips:Socket_Strip_Straight_1x12;
+EndCmp
+
+BeginCmp
+TimeStamp = /53D105E1;
+Reference = P3;
+ValeurCmp = Arduino-Bottom;
+IdModule  = Socket_Strips:Socket_Strip_Straight_1x03;
+EndCmp
+
+BeginCmp
+TimeStamp = /53D10584;
+Reference = P4;
+ValeurCmp = Arduino-FTDI;
+IdModule  = Socket_Strips:Socket_Strip_Straight_1x06;
+EndCmp
+
+BeginCmp
+TimeStamp = /53D10531;
+Reference = P5;
+ValeurCmp = Arduino_Right;
+IdModule  = Socket_Strips:Socket_Strip_Straight_1x12;
+EndCmp
+
+BeginCmp
+TimeStamp = /53D10644;
+Reference = P6;
+ValeurCmp = Arduino-Middle;
+IdModule  = Socket_Strips:Socket_Strip_Straight_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = /53D16F53;
+Reference = P7;
+ValeurCmp = CONN_14;
+IdModule  = Socket_Strips:Socket_Strip_Straight_1x14;
+EndCmp
+
+BeginCmp
+TimeStamp = /53D17036;
+Reference = P8;
+ValeurCmp = CONN_8;
+IdModule  = Socket_Strips:Socket_Strip_Straight_1x08;
+EndCmp
+
+BeginCmp
+TimeStamp = /53D4CCB9;
+Reference = P9;
+ValeurCmp = CONN_3;
+IdModule  = Socket_Strips:Socket_Strip_Straight_1x03;
+EndCmp
+
+BeginCmp
+TimeStamp = /53D4E0FA;
+Reference = P10;
+ValeurCmp = CONN_3X2;
+IdModule  = Pin_Headers:Pin_Header_Straight_2x03;
+EndCmp
+
+BeginCmp
+TimeStamp = /53D19B8E;
+Reference = R1;
+ValeurCmp = 10k;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /53D19ACA;
+Reference = R2;
+ValeurCmp = 10k;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /53D4E965;
+Reference = R3;
+ValeurCmp = R;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /53D149B2;
+Reference = U1;
+ValeurCmp = 74LS32;
+IdModule  = Sockets_DIP:DIP-14__300_ELL;
+EndCmp
+
+BeginCmp
+TimeStamp = /53D14CDF;
+Reference = U2;
+ValeurCmp = 74LS08;
+IdModule  = Sockets_DIP:DIP-14__300_ELL;
+EndCmp
+
+BeginCmp
+TimeStamp = /53D15539;
+Reference = U3;
+ValeurCmp = 74LS540;
+IdModule  = Sockets_DIP:DIP-20__300_ELL;
+EndCmp
+
+BeginCmp
+TimeStamp = /53D20D4E;
+Reference = U4;
+ValeurCmp = 74LS74;
+IdModule  = Sockets_DIP:DIP-14__300_ELL;
+EndCmp
+
+BeginCmp
+TimeStamp = /53D13F33;
+Reference = U5;
+ValeurCmp = 74LS245;
+IdModule  = Sockets_DIP:DIP-20__300_ELL;
+EndCmp
+
+BeginCmp
+TimeStamp = /53D1221B;
+Reference = U6;
+ValeurCmp = MCP23S17;
+IdModule  = Sockets_DIP:DIP-28__300_ELL;
+EndCmp
+
+BeginCmp
+TimeStamp = /53D122B1;
+Reference = U7;
+ValeurCmp = MCP23S17;
+IdModule  = Sockets_DIP:DIP-28__300_ELL;
+EndCmp
+
+EndListe
