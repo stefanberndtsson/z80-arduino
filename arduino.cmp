@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-08-14 BZR 5074)-product   date = Fri Aug 15 19:15:12 2014
+Cmp-Mod V01 Created by Cvpcb (2014-08-14 BZR 5074)-product   date = Sun Aug 17 22:20:55 2014
 
 BeginCmp
 TimeStamp = /53D17DEC;
@@ -61,6 +61,13 @@ TimeStamp = /53EE40BE;
 Reference = IC1;
 ValeurCmp = ATMEGA32A-P;
 IdModule  = Sockets_DIP:DIP-40__600_ELL;
+EndCmp
+
+BeginCmp
+TimeStamp = /53F116F2;
+Reference = JP1;
+ValeurCmp = JUMPER;
+IdModule  = Socket_Strips:Socket_Strip_Straight_1x02;
 EndCmp
 
 BeginCmp

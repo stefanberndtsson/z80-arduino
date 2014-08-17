@@ -75,8 +75,6 @@ Wire Wire Line
 Wire Wire Line
 	2000 2200 2300 2200
 Wire Wire Line
-	2000 2600 2500 2600
-Wire Wire Line
 	2000 2700 2300 2700
 Wire Wire Line
 	2000 2800 2300 2800
@@ -1199,10 +1197,6 @@ $EndComp
 NoConn ~ 2600 2200
 NoConn ~ 2600 1400
 Wire Wire Line
-	2500 2600 2500 1800
-Wire Wire Line
-	2500 1800 2600 1800
-Wire Wire Line
 	2600 1000 2400 1000
 Text Label 2450 1000 0    60   ~ 0
 RST
@@ -1528,4 +1522,31 @@ Text Label 2400 7650 0    60   ~ 0
 CLRWT
 Text Label 5800 2350 1    60   ~ 0
 GND
+Wire Wire Line
+	2000 2600 2300 2600
+Wire Wire Line
+	2600 1800 2550 1800
+Wire Wire Line
+	2550 1800 2550 2100
+Text Label 2550 2050 1    60   ~ 0
+XTAL
+$Comp
+L JUMPER JP1
+U 1 1 53F116F2
+P 5050 6900
+F 0 "JP1" H 5050 7050 60  0000 C CNN
+F 1 "JUMPER" H 5050 6820 40  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x02" H 5050 6900 60  0001 C CNN
+F 3 "" H 5050 6900 60  0000 C CNN
+	1    5050 6900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 6900 4350 6900
+Wire Wire Line
+	5350 6900 5800 6900
+Text Label 4450 6900 0    60   ~ 0
+CLK
+Text Label 5500 6900 0    60   ~ 0
+XTAL
 $EndSCHEMATC
