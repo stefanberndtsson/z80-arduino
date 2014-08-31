@@ -714,8 +714,6 @@ Wire Wire Line
 	1050 5300 700  5300
 Text Label 750  5100 0    60   ~ 0
 AVRCS
-Text Label 750  5300 0    60   ~ 0
-AN0
 Wire Wire Line
 	2250 5200 2550 5200
 Text Label 2300 5200 0    60   ~ 0
@@ -1150,17 +1148,17 @@ Wire Wire Line
 	10600 4250 10900 4250
 Wire Wire Line
 	10600 4350 10900 4350
-Text Label 9550 4150 0    60   ~ 0
+Text Label 9550 4350 0    60   ~ 0
 DT6
 Text Label 9550 4250 0    60   ~ 0
 DT7
 Text Label 10650 4250 0    60   ~ 0
 DT5
-Text Label 9550 4350 0    60   ~ 0
+Text Label 9550 4150 0    60   ~ 0
 RST
-Text Label 10650 4150 0    60   ~ 0
-VCC
 Text Label 10650 4350 0    60   ~ 0
+VCC
+Text Label 10650 4150 0    60   ~ 0
 GND
 $Comp
 L R R3
@@ -1576,4 +1574,6 @@ Text Label 5400 6900 0    60   ~ 0
 GND
 Text Label 5400 7200 0    60   ~ 0
 VCC
+Text Label 750  5300 0    60   ~ 0
+DT20
 $EndSCHEMATC
