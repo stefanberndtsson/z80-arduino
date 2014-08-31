@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-08-14 BZR 5074)-product   date = Sun Aug 17 22:20:55 2014
+Cmp-Mod V01 Created by Cvpcb (2014-08-29 BZR 5106)-product   date = Sun Aug 31 14:31:06 2014
 
 BeginCmp
 TimeStamp = /53D17DEC;
@@ -117,6 +117,13 @@ TimeStamp = /53D0BB47;
 Reference = P7;
 ValeurCmp = BUS;
 IdModule  = Socket_Strips:Socket_Strip_Straight_2x25;
+EndCmp
+
+BeginCmp
+TimeStamp = /54031378;
+Reference = P8;
+ValeurCmp = CONN_4;
+IdModule  = Socket_Strips:Socket_Strip_Straight_1x04;
 EndCmp
 
 BeginCmp

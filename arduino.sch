@@ -798,9 +798,9 @@ Wire Wire Line
 	2900 5700 2550 5700
 Wire Wire Line
 	2900 6200 2550 6200
-Text Label 2600 5700 0    60   ~ 0
-AVRCS
 Text Label 2600 6200 0    60   ~ 0
+AVRCS
+Text Label 2600 5700 0    60   ~ 0
 WR
 Wire Wire Line
 	4200 5950 4200 6100
@@ -1533,20 +1533,47 @@ XTAL
 $Comp
 L JUMPER JP1
 U 1 1 53F116F2
-P 5050 6900
-F 0 "JP1" H 5050 7050 60  0000 C CNN
-F 1 "JUMPER" H 5050 6820 40  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_1x02" H 5050 6900 60  0001 C CNN
-F 3 "" H 5050 6900 60  0000 C CNN
-	1    5050 6900
+P 4150 6550
+F 0 "JP1" H 4150 6700 60  0000 C CNN
+F 1 "JUMPER" H 4150 6470 40  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x02" H 4150 6550 60  0001 C CNN
+F 3 "" H 4150 6550 60  0000 C CNN
+	1    4150 6550
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4750 6900 4350 6900
+	3850 6550 3450 6550
 Wire Wire Line
-	5350 6900 5800 6900
-Text Label 4450 6900 0    60   ~ 0
+	4450 6550 4900 6550
+Text Label 3550 6550 0    60   ~ 0
 CLK
-Text Label 5500 6900 0    60   ~ 0
+Text Label 4600 6550 0    60   ~ 0
 XTAL
+$Comp
+L CONN_4 P8
+U 1 1 54031378
+P 6150 7050
+F 0 "P8" V 6100 7050 50  0000 C CNN
+F 1 "CONN_4" V 6200 7050 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x04" H 6150 7050 60  0001 C CNN
+F 3 "" H 6150 7050 60  0000 C CNN
+	1    6150 7050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 6900 5300 6900
+Wire Wire Line
+	5800 7000 5300 7000
+Wire Wire Line
+	5800 7100 5300 7100
+Wire Wire Line
+	5800 7200 5300 7200
+Text Label 5400 7000 0    60   ~ 0
+TXD
+Text Label 5400 7100 0    60   ~ 0
+RXI
+Text Label 5400 6900 0    60   ~ 0
+GND
+Text Label 5400 7200 0    60   ~ 0
+VCC
 $EndSCHEMATC
