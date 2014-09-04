@@ -494,11 +494,6 @@ NoConn ~ 5900 3700
 NoConn ~ 5900 3800
 NoConn ~ 5900 1450
 NoConn ~ 5900 1550
-NoConn ~ 7700 4400
-NoConn ~ 7700 4500
-NoConn ~ 7700 4600
-NoConn ~ 7700 4700
-NoConn ~ 7700 4800
 Wire Wire Line
 	5400 1150 5400 3400
 Wire Wire Line
@@ -1008,7 +1003,6 @@ Connection ~ 7200 5950
 Wire Wire Line
 	7200 6350 6900 6350
 Connection ~ 7200 6150
-NoConn ~ 2300 1300
 NoConn ~ 2300 1900
 $Comp
 L R R2
@@ -1051,7 +1045,6 @@ Wire Wire Line
 	850  6400 950  6400
 NoConn ~ 5900 2250
 NoConn ~ 5900 4500
-NoConn ~ 2300 2100
 NoConn ~ 2300 1800
 NoConn ~ 2300 2200
 Text Label 5700 4600 1    60   ~ 0
@@ -1249,10 +1242,6 @@ Wire Wire Line
 Wire Wire Line
 	4600 2900 4900 2900
 Wire Wire Line
-	4600 3000 5150 3000
-Wire Wire Line
-	4600 3100 5150 3100
-Wire Wire Line
 	4600 3200 4900 3200
 Wire Wire Line
 	4600 3300 4900 3300
@@ -1350,15 +1339,15 @@ Wire Wire Line
 	4600 3900 4900 3900
 Text Label 4850 2100 0    60   ~ 0
 AVRCS
-Text Label 4850 1900 0    60   ~ 0
+Text Label 7750 4500 0    60   ~ 0
 BUSRQ
-Text Label 4850 2000 0    60   ~ 0
+Text Label 7750 4600 0    60   ~ 0
 BUSAK
-Text Label 4850 2200 0    60   ~ 0
+Text Label 7750 4700 0    60   ~ 0
 RESET
 Wire Wire Line
 	4600 1100 4900 1100
-Text Label 4900 3000 0    60   ~ 0
+Text Label 7750 4400 0    60   ~ 0
 IORQ
 $Comp
 L CONN_8 P3
@@ -1514,7 +1503,7 @@ Wire Wire Line
 	2000 2400 2300 2400
 Wire Wire Line
 	2000 2500 2300 2500
-Text Label 4900 3100 0    60   ~ 0
+Text Label 4850 1900 0    60   ~ 0
 CLRWT
 Text Label 2400 7650 0    60   ~ 0
 CLRWT
@@ -1575,5 +1564,25 @@ GND
 Text Label 5400 7200 0    60   ~ 0
 VCC
 Text Label 750  5300 0    60   ~ 0
-DT20
+DENAB
+Wire Wire Line
+	7700 4400 8050 4400
+Wire Wire Line
+	7700 4500 8050 4500
+Wire Wire Line
+	7700 4600 8050 4600
+Wire Wire Line
+	7700 4700 8050 4700
+Wire Wire Line
+	4600 3000 4900 3000
+Wire Wire Line
+	4600 3100 4900 3100
+Text Label 4850 2000 0    60   ~ 0
+DENAB
+Text Label 4850 2200 0    60   ~ 0
+INT
+Text Label 7750 4800 0    60   ~ 0
+M1
+Wire Wire Line
+	7700 4800 8050 4800
 $EndSCHEMATC
